@@ -76,6 +76,11 @@ pagination_dir: page
 theme: aath
 
 favicon: /avatar.jpg
+avatar: /avatar.jpg
+aside-description: "@不科学的科学君"
+
+links:
+  Github: https://github.com/liu233w/
 
 feed:
   type: atom
