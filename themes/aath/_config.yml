@@ -8,6 +8,7 @@ menu:
   关于: /about
   归档: /archives
   标签: /tags
+  FEED: /atom.xml
 
 # stylesheets loaded in the <head>
 stylesheets:
