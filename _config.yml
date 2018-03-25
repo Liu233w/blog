@@ -82,6 +82,9 @@ aside-description: "@不科学的科学君"
 links:
   Github: https://github.com/liu233w/
 
+disqus_shortname: liu233w
+search: true
+
 feed:
   type: atom
   path: atom.xml
