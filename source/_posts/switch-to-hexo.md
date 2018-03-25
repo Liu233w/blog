@@ -5,7 +5,7 @@ tags:
 - python
 - emacs
 
-title: 切换到 hexo
+title: 从 EGO 切换到 hexo
 ---
 
 # 前言
