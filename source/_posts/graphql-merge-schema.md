@@ -16,7 +16,7 @@ title: GraphQL：BFF架构资料 （兼谈合并多个 Schema 的方式）
 
 这个东西让前端开发人员很爽，然而并不能让后端开发人员感受到它的好处。自己写的还是 RESTful 的增删改查，还要额外写相应的 Schema。
 
-最好的情况应该是这样的：每个微服务也使用 GraphQL 作为接口，BFF层读取所有的 GraphQL，将它合并到一起，形成一个统一的 Schema。这样的话相应微服务的后端就不用维护两套东西了，还能用 <https://github.com/leangen/graphql-spqr> 之类的东西直接生成 Schema。而一些老旧的API仍然可以使用 RESTful 作为接口，让 BFF 层调用。
+最好的情况应该是这样的：每个微服务也使用 GraphQL 作为接口，BFF层读取所有的 GraphQL，将它合并到一起，形成一个统一的 Schema。这样的话相应微服务的后端就不用维护两套东西了，还能用 <https://github.com/leangen/graphql-spqr> 或者 <https://github.com/graphcool/prisma> 之类的东西直接生成 Schema。而一些老旧的API仍然可以使用 RESTful 作为接口，让 BFF 层调用。
 
 现在的架构是这样的：
 ![](2.png)
