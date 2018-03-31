@@ -237,7 +237,9 @@ services.AddSwaggerGen(options =>
 ```
 
 # 前端
-这一部分主要是讨论如何将 ABP 同 Vue 结合在一起。这段内容我以后再补上吧。。。
+这一部分主要是讨论如何将 ABP 同 Vue 结合在一起。
+
+（我刚刚发现官网上已经提供了 ABP+VUE 的模板，看来我已经不需要写这一部分了）
 
 # 持续集成
 ## 用 travis-ci 同时测试 javascript 和 `c#`
