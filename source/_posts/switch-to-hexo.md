@@ -4,6 +4,8 @@ tags:
 - 前端
 - python
 - emacs
+categories:
+- blog
 
 title: 从 EGO 切换到 hexo
 ---

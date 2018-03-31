@@ -1,4 +1,7 @@
 ---
-title: {{ title }}
+categories:
+- blog
 tags:
+
+title: {{ title }}
 ---

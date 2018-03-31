@@ -1,5 +1,7 @@
 ---
 date: 2018-03-30 21:21:09
+categories:
+- blog
 tags:
 - Web 开发
 title: GraphQL：BFF架构资料 （兼谈合并多个 Schema 的方式）

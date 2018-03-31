@@ -4,6 +4,8 @@ tags:
 - Web 开发
 - Asp.Net
 - Vue
+categories:
+- blog
 title: 在 ABP 2.3 和 Vue 单页应用中的踩坑总结
 ---
 
