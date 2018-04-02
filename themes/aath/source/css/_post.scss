@@ -34,7 +34,7 @@
   }
   > .content {
     width: 66%;
-  } 
+  }
   aside {
     flex-basis: 34%;
     .toc-container {
@@ -609,4 +609,9 @@
       text-decoration: underline;
     }
   }
+}
+
+.license {
+  text-align: center;
+  margin-top: 10px;
 }
