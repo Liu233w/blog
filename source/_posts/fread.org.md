@@ -8,7 +8,7 @@ categories:
 title: OJ 中使用 fread 加速读入
 ---
 
-关于 fread 加速读入的说明请参考 [我之前的博文](http://liu233w.github.io/acm/2016/07/25/hdu-4825/#orgheadline8)。
+关于 fread 加速读入的说明请参考 [我之前的博文](/2016/07/25/hdu-4825.org/#16-年-8-月-20-日更新)。
 
 在使用这段代码的时候我发现在某些题目上容易出错导致 TLE，比如 POJ-1330。
 
