@@ -19,7 +19,7 @@
   inView.offset(50)
 
   document.body.addEventListener('touchstart', function(){});
-  
+
   window.addEventListener('scroll', _.throttle(e => {
     var currentY = window.scrollY
     if((oldY - currentY) < 0) {
@@ -37,7 +37,7 @@
 
   $('.toc-link').each(function() {
       var href = $(this).attr("href");
-      
+
       inView(href).on('exit', () => {
         if (isDown) {
           handleActive(href)
@@ -69,4 +69,4 @@
 </script>
 <%- js('lib/jquery.fancybox.min.js') %>
 <% } %>
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>

@@ -15,24 +15,9 @@
     if (is_category()){
       title = page.category
     }
-  %>  
+  %>
   <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
   <%- css('style') %>
   <%- css('lib/jquery.fancybox.min.css') %>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script type="text/javascript" src="https://tajs.qq.com/stats?sId=65546304" charset="UTF-8"></script>
-  <script>
-  (function(){
-      var bp = document.createElement('script');
-      var curProtocol = window.location.protocol.split(':')[0];
-      if (curProtocol === 'https') {
-          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-      }
-      else {
-          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-      }
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(bp, s);
-  })();
-  </script>
 </head>
