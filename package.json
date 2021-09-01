@@ -7,7 +7,7 @@
     "deploy": "git add . && git commit -am \"Update\" && git push && hexo g && hexo d"
   },
   "hexo": {
-    "version": ""
+    "version": "5.4.0"
   },
   "dependencies": {
     "hexo": "^5.4.0",
