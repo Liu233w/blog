@@ -107,5 +107,5 @@ baidusitemap:
 deploy:
   - type: git
     repo: https://github.com/Liu233w/liu233w.github.io.git
-  - type: git
-    repo: git@gitee.com:Liu233w/liu233w.git
+  # - type: git
+  #   repo: git@gitee.com:Liu233w/liu233w.git
