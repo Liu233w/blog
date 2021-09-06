@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "hexo server",
-    "deploy": "git add . && git commit -am \"Update\" && git push && hexo g && hexo d"
+    "deploy": "git add . && git commit -am \"Update\" && git push && hexo g && hexo d",
+    "hexo": "hexo"
   },
   "hexo": {
     "version": "5.4.0"
